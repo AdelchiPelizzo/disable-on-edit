@@ -1,0 +1,6 @@
+/**
+ * Created by Adelchi on 13/09/2019.
+ */
+.disabled{
+    pointer-events: none;
+}
