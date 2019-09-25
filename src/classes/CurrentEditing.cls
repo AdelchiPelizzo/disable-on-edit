@@ -8,6 +8,7 @@ public with sharing class CurrentEditing {
  * @param (parameter recId) (Id of the Case being edited)
  * @return (Boolean value of isEdited__c, true if case is being edited, false if it is not.)
  */
+
     @AuraEnabled
     public static Boolean run(String recId){
         String currentUserId = UserInfo.getUserId();
