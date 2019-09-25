@@ -2,7 +2,6 @@
  * Created by Adelchi on 15/09/2019.
  */
 
-
 public with sharing class CurrentEditing {
     /**
  * Purpose : (Flag Case record which is potentially being edited. It updates isEdited__c)
