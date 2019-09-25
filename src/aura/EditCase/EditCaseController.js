@@ -2,7 +2,6 @@
  * Created by Adelchi on 16/09/2019.
  */
 
-
 ({
     doInit : function(component, event, helper) {
         var isEdited = component.get("c.run");
