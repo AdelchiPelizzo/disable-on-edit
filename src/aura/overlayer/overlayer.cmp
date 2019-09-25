@@ -1,0 +1,7 @@
+<!--
+ - Created by Adelchi on 14/09/2019.
+ -->
+
+<aura:component description="overlayer"  implements="flexipage:availableForAllPageTypes, force:LightningQuickAction" access="global">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+</aura:component>
