@@ -2,7 +2,7 @@
  - Created by Adelchi on 16/09/2019.
  -->
 
-<aura:component description="Provides functionality to Edit button for Case record" implements="force:LightningQuickAction,flexipage:availableForRecordHome,lightning:actionOverride,force:hasRecordId,force:hasSObjectName" controller="CurrentEditing" access="global">
+<aura:component description="Provides functionality to Edit button for Case record" implements="force:LightningQuickAction,flexipage:availableForAllPageTypes,lightning:actionOverride,force:hasRecordId,force:hasSObjectName" controller="CurrentEditing" access="global">
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
     <aura:handler name="destroy" value="{!this}" action="{!c.destroyComponent}"/>
     <aura:attribute name="recordId" type="String" />
